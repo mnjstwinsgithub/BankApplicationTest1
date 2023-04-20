@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BankSystemWebApplication1</name>
+    </assembly>
+    <members>
+        <member name="P:BankSystemWebApplication1.Account.Account.AccountNumber">
+            <summary>
+            Account Number
+            </summary>
+        </member>
+        <member name="P:BankSystemWebApplication1.Account.Account.Balance">
+            <summary>
+            Balance
+            </summary>
+        </member>
+        <member name="P:BankSystemWebApplication1.User.User.UserId">
+            <summary>
+            User Id
+            </summary>
+        </member>
+        <member name="P:BankSystemWebApplication1.User.User.UserName">
+            <summary>
+            User Name
+            </summary>
+        </member>
+        <member name="P:BankSystemWebApplication1.User.User.FirstName">
+            <summary>
+            First Name
+            </summary>
+        </member>
+        <member name="P:BankSystemWebApplication1.User.User.LastName">
+            <summary>
+            Last Name
+            </summary>
+        </member>
+        <member name="P:BankSystemWebApplication1.User.User.Accounts">
+            <summary>
+            Accounts
+            </summary>
+        </member>
+        <member name="M:BankSystemWebApplication1.Controllers.UserController.GetUsers">
+            <summary>
+            Get Users
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BankSystemWebApplication1.Controllers.UserController.CreateUser(BankSystemWebApplication1.User.User)">
+            <summary>
+            Create User
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BankSystemWebApplication1.Controllers.UserController.DeleteUser(System.Int32)">
+            <summary>
+            Delete User
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BankSystemWebApplication1.Controllers.UserController.Withdrawl(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Withdrawl
+            </summary>
+            <param name="userId"></param>
+            <param name="accountNumber"></param>
+            <param name="balance"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BankSystemWebApplication1.Controllers.UserController.Deposit(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Deposit
+            </summary>
+            <param name="userId"></param>
+            <param name="accountNumber"></param>
+            <param name="balance"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BankSystemWebApplication1.Controllers.UserController.CreateAccount(System.Int32)">
+            <summary>
+            Create Account
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BankSystemWebApplication1.Controllers.UserController.DeleteAccount(System.Int32,System.Int32)">
+            <summary>
+            Delete Account
+            </summary>
+            <param name="userId"></param>
+            <param name="accountNumber"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
